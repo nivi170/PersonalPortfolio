@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">My Portfolio</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2 class="animate-fadeIn">Welcome to My Portfolio</h2>
+            <p class="animate-slideIn">Hi, I'm Nivedita Sharma, a passionate developer and designer.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-text">Hello! I'm Nivedita Sharma, a web developer specializing in creating beautiful and functional websites. I enjoy solving problems and constantly learning new technologies.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card animate-zoom">
+                    <h3>Project 1</h3>
+                    <h4>Simple Calculator</h4>
+                    <p>A basic calculator application developed as a beginner project. It allows users to perform fundamental arithmetic operations such as addition, subtraction, multiplication, and division. This project helped me understand core programming concepts like user input, logic implementation, and simple UI design.</p>
+                </div>
+                <div class="project-card animate-zoom">
+                    <h3>Project 2</h3>
+                    <h4>College Management System</h4>
+                    <p>A comprehensive software solution designed to manage various aspects of a college, including student information, faculty details, courses, and attendance. The system aims to streamline administrative tasks, enhance communication, and improve the overall efficiency of college management. Features include user-friendly interfaces for students and staff, automated reporting, and easy data tracking.</p>
+                </div>
+                <div class="project-card animate-zoom">
+                    <h3>Project 3</h3>
+                    <h4>Local Indian Skills Marketplace</h4>
+                    <p>A platform connecting skilled professionals with local customers, promoting employment and community engagement. Features include skill listing, job postings, geo-targeting, and secure payments. Built with a focus on empowering local talent and fostering a self-reliant economy in line with the "Vocal for Local" initiative.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Nivedita Sharma. All Rights Reserved.</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
